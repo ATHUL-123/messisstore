@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.subheader{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 30%;
+    padding-top: 5px;
+}
+
+u:hover{
+    
+    color: rgb(37, 85, 156);
+    cursor: pointer;
+}
+
+.mainheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:80px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.mainheader .mid{
+    display: flex;
+    margin-right: 57px;
+}
+.mainheader .mid h4{
+    margin-top: 10px;
+    margin-right: 36px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid  rgb(255, 255, 255);
+}
+
+.mainheader .mid h4:hover{
+    border-bottom: 2px solid  rgb(30, 138, 181);
+    cursor: pointer;
+    color: rgb(30, 138, 181);
+}
+.mainheader .left{
+
+   margin-left: 46px;
+
+}
+.right{
+    margin-right: 60px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.right .material-symbols-outlined{
+        margin-top: 30px;
+        margin-left:30px ;
+        color: rgb(0, 0, 0);
+      
+        margin-bottom: 20px;
+    
+}
+
+.right span{
+  background-color: rgb(255, 255, 255);
+    font-size: 30px;
+   
+    
+}
+
+.right .material-symbols-outlined:hover{
+    color:  rgb(30, 138, 181);
+    cursor: pointer;
+}
+/* header ends*/
+
+.mainimg{
+    height: calc(90vh - 110px);
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/21/17/45/background-1846768_1280.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+.mainimg img{
+
+    height: 75vh;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.leftside{
+    
+    width: fit-content;
+    margin-left: 300px;
+    padding-top: 100px;
+    
+}
+.leftside img{
+    margin-left: 0;
+}
+
+.leftside .logoo{
+    margin-left: 167px;
+}
+.leftside h1{
+    font-size: 2cm;
+    margin-left: 35px;
+    color: white;
+    text-shadow: 3px black;
+   
+}
+
+.leftside h3{
+    font-size: 25px;
+    color: white;
+}
+.leftside button{
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top:35px;
+    background-color: rgb(30, 138, 181);
+    border-radius: 10px;
+    border: 2px solid rgb(30, 138, 181);
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+
+.leftside button:hover{
+    background-color: white;
+    color: rgb(30, 138, 181);
+}
+.midh1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 227, 227);
+    display: flex;
+    padding-top: 30px;
+    padding-left: 380px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+.midh1 .energy{
+    font-weight: 10;
+    
+}
+.midsection{
+    width: 100%;
+    background-color: rgb(238, 227, 227);
+}
+
+.midsection .card1{
+   background-color: white;
+   width: fit-content;
+   height: fit-content;
+   border-radius: 10px;
+   margin-left: 5px;
+   
+
+}
+.midsection .card1 img{
+     border-radius: 10px;
+     transition: all .2s ease-in-out;
+    
+}
+.midsection .card1 .cardlogo{
+    
+    
+    margin-bottom: 140px;
+    margin-left: -60px;
+    transform: rotate(270deg);
+    margin-right: -80px;
+    opacity:.2;
+ 
+   
+
+}
+.card2{
+    height: 410px;
+    background-color: rgb(238, 227, 227);
+    width: fit-content;
+    font-family:'Roboto', sans-serif;
+    border-radius: 10px;
+  
+}  
+.midsection .card2 .btns .b2{
+    width: 150px;
+    height: 40px;
+  
+   
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+
+.midsection .card2 .btns .b1{
+    width: 150px;
+    height: 40px;
+  
+   
+    background-color: rgb(30, 138, 181);
+    border-radius: 10px;
+    border: 2px solid rgb(30, 138, 181);
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+.midsection .card2 .btns .b1:hover{
+    background-color: white;
+    color: #000000;
+}
+.midsection .card2 .btns .b2:hover{
+ background-color: white;
+ color:black;
+}
+.card1{
+    overflow: hidden;
+}
+.midsection{
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+    padding-left: 60px;
+
+}
+.card1 img:hover{
+ transform: scale(1.05);
+ 
+}
+.rdpage .pic img{
+
+    height: 600px;
+    width: 400px;
+    margin-top: 70px;
+    border-radius: 20px;
+    margin-left: 50px;
+    
+    
+}
+
+
+.rdpage{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding-left: 180px;
+   color: #000000;
+    background-color: rgb(238, 227, 227) ;
+    background-image: url(https://wallpaperswide.com/download/light_background-wallpaper-3000x2000.jpgg);
+}
+
+.insta{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 227, 227);
+    padding-left: 500px;
+    padding-top: 20px;
+}
+.insta h5{
+    margin-top: 6PX;
+}
+.phone{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 227, 227);
+    
+
+}
+.phone h4{
+    margin-left: 50px;
+    line-height: 30px;
+
+}
+.phone h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+.content button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.content button:hover{
+    background-color: white;
+    color:black;
+}
+.content{
+    height: 360px;
+    width: 600px;
+    background-image:url(https://media.istockphoto.com/id/1456348006/photo/modern-abstract-background.jpg?s=612x612&w=0&k=20&c=aQy0b6x6iQUdBf9Y0lN_bD-WyiNazq02StUtQMmA8T4=);
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+    border-radius: 30px;
+}
+.leftsec{
+    margin-right: 100px;
+}
+.badge-android{
+    height: 60px;
+}
+.apple{
+    height: 60px;
+
+}
+.messi{
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.leftt{
+    margin-right: 100px;
+    margin-top: 50p;
+}
+.leftt h1{
+    margin-bottom: 30px;
+}
+.right img{
+
+    height:400px;
+    margin-top:-133px;
+    
+}
+.footer{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    color: white;
+    padding-left: 500px;
+    padding-top: 100px;
+}
+.footer img{
+    margin-left: 200px;
+}
+.footer h1{
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.footer h4{
+    margin-left:-40px;
+    line-height: 30px;
+}
+.footer .email {
+    margin-top: 20px;
+    margin-left: -44px;
+}
+.footer .email input{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.footer .email input::placeholder{
+    color: rgb(18, 140, 189);
+}
+.footer .email button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(30, 138, 181);
+    border-radius: 10px;
+    border: 2px solid rgb(30, 138, 181);
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+.list{
+    display: flex;
+    margin-top: 40px;
+}
+
+.list .rightlist{
+    line-height: 30px;
+}
+
+.list .about{
+
+    line-height: 30px;
+    margin-left: 200px;
+
+}
